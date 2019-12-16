@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64600" started-at="2019-11-21T17:52:30 IST" finished-at="2019-11-21T17:53:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64600" started-at="2019-11-21T17:52:30 IST" finished-at="2019-11-21T17:53:35 IST">
+      <class name="com.test.DataDrivenConceptUsingTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenConceptUsingTestNG@627551fb]" name="setUp" is-config="true" duration-ms="25529" started-at="2019-11-21T17:52:31 IST" finished-at="2019-11-21T17:52:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegistration(java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenConceptUsingTestNG@627551fb]" name="halfEbayRegistration" duration-ms="8608" started-at="2019-11-21T17:52:57 IST" data-provider="getData" finished-at="2019-11-21T17:53:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashanth.burri@srijaytech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegistration -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenConceptUsingTestNG@627551fb]" name="setUp" is-config="true" duration-ms="20920" started-at="2019-11-21T17:53:05 IST" finished-at="2019-11-21T17:53:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegistration(java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenConceptUsingTestNG@627551fb]" name="halfEbayRegistration" duration-ms="8598" started-at="2019-11-21T17:53:26 IST" data-provider="getData" finished-at="2019-11-21T17:53:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jay@srijaytech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegistration -->
+      </class> <!-- com.test.DataDrivenConceptUsingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
